@@ -1,0 +1,20 @@
+-- lua
+
+X = turtle.detect()
+Y = turtle.detectDown()
+Z = turtle.detectUp()
+
+
+
+Function platform()
+
+If x = false then
+Turtle.forward()
+If y = false then
+Turtle.placeDown()
+Else
+Turtle.digDown()
+Turtle.placeDown()
+End
+Else
+Turtle.dig()
