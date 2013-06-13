@@ -17,4 +17,5 @@ Turtle.digDown()
 Turtle.placeDown()
 End
 Else
-Turtle.dig()
+Turtle.turnright()
+Turtle.forward()
